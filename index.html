@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+		<title>Callis Engenharia</title>
+	</head>
+
+	<body>
+		
+		<header class="cabecalho">
+			<img class="logo" src="logo.png">			
+			<nav class="menu">
+				<ul class="menu-lista">
+	                <li class="menu-item"><a class="menu-link" href="#">home</a></li>	                
+	                <li class="menu-item"><a class="menu-link" href="#quem-somos-link">equipe</a></li>
+	                <li class="menu-item"><a class="menu-link" href="#">contato</a></li>
+	                <li class="menu-item"><a class="menu-link" href="#">blog</a></li>
+	            </ul>	            
+       		</nav>       		
+        </header>
+
+        <nav class="sociais">
+        <!--	
+        <a class="sociais-link" href="https://www.facebook.com/callisengenharia"><img class="whatsapp-imagem" src="whatsapp-logo.png"></a>	
+        -->	
+   		<a class="sociais-link" href="https://www.facebook.com/callisengenharia"><img class="facebook-imagem" src="facebook-logo.png"></a>
+        <a class="sociais-link" href="https://www.instagram.com/callisengenharia/"><img class="instagram-imagem" src="instagram-logo.png"></a>
+   		</nav>
+
+        <img class="banner" alt="Banner" src="banner.jpg">
+
+        <section class="titulo">
+        	<p class="titulo-texto">Projetos, Administração, Acompanhamento e Gerenciamento de Obras</p>
+        </section>
+
+        <div class="divisor"></div>
+
+        <section class="servicos">
+        	<ul class="servicos-lista">
+        		<li class="servicos-item">Execução de Obras e Reformas</li>
+        		<li class="servicos-item">Regularização de Imóveis</li>
+        		<li class="servicos-item">Consultoria</li>
+        		<li class="servicos-item">Aprovações Legais - Condomínios e Prefeituras</li>
+        		<li class="servicos-item">ART - Anotações de Responsabilidade Técnica</li>
+        		<li class="servicos-item">AVCB e Laudos Técnicos</li>
+        		<li class="servicos-item">Assessoria Para Aquisição de Financiamento Residencial</li>
+        	</ul>
+        </section>
+
+        <div class="divisor"></div>
+
+        <div class="container">
+		  <form action="action_page.php">
+
+		    <label for="fname">Nome e Sobrenome *</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Nome e Sobrenome" required>
+
+		    <label for="lname">Telefone *</label>
+		    <input type="text" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+
+		    <label for="email">e-mail *</label>
+		    <input type="text" id="email" name="email" placeholder="seu-email@dominio.com" required>
+
+		    <label for="country">Assunto</label>
+		    <select id="country" name="country">
+		      <option value="obras">Obras ou Reformas</option>
+		      <option value="regul">Regularização</option>
+		      <option value="art">ART</option>
+		      <option value="avcb">AVCB ou Laudos</option>
+		      <option value="aprovacao">Aprovação</option>
+		    </select>
+
+		    <label for="subject">Mensagem *</label>
+		    <textarea id="subject" name="subject" placeholder="Escreva sua mensagem aqui" style="height:200px" required></textarea>
+
+		    <input type="submit" value="Enviar">
+
+		  </form>
+		</div>
+
+        <div class="divisor"></div>
+
+       <section class="quem-somos">
+            <p class="quem-somos-titulo"><a id="quem-somos-link">Nossa Equipe</a></p>
+            <p class="quem-somos-descricao">A Equipe da Callis Engenharia conta com:</p>
+            <div class="pessoas">
+                <div class="pessoa">
+                    <img class="pessoa-imagem pessoa-imagem--andre" src="andre.jpg">
+                    <span class="pessoa-nome">André Lucena</span>
+                    <span class="pessoa-funcao">Engenheiro Civil especializado em projetos complementares e artista 3D</span>
+                </div>
+                <div class="pessoa">
+                    <img class="pessoa-imagem pessoa-imagem--carla" src="carla.jpg">
+                    <span class="pessoa-nome">Carla Lucena</span>
+                    <span class="pessoa-funcao">Engenheira Civil especializada em processos de prefeitura e laudos técnicos</span>
+                </div>
+            </div>
+        </section>
+
+		<footer class="rodape">
+			<img class="rodape-imagem" src="logo-branco-pequeno-transparente.png">
+			<p class="copyright">© Copyright Callis Engenharia - 2022</p>
+		</footer>
+
+	</body>

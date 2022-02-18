@@ -1,0 +1,208 @@
+body {
+	position: relative;
+	width: 1024px;
+	margin: 0 auto;	
+	font-family: 'Dosis', sans-serif;
+}
+
+.cabecalho {
+	align-items: center;
+	background: #f4f4f4;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 3rem;
+	padding-right: 2rem;
+	font-weight: bold;
+}
+
+.logo {
+	width: 280px;
+	padding-top: 1rem;
+}
+
+.menu-lista {
+	display: flex;
+	padding: 1em;
+}
+
+.menu-item {
+	list-style: none;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+.menu-item:last-child .menu-link {
+	margin-right: 0;
+}
+
+.menu-link {
+	color: #808080;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.menu-link:hover {
+	color: #9EBE4C;
+}
+
+.sociais {
+	background: #f4f4f4;
+	display: flex;
+	justify-content: right;
+	padding-bottom: 10px;
+	padding-right: 2.5rem;
+}
+
+.sociais-link {
+	margin-right: 10px;
+}
+
+.facebook-imagem, .instagram-imagem {
+	width: 30px;
+}
+
+.whatsapp-imagem {
+	width: 40px;
+	padding-bottom: 10px;
+}
+
+.banner {
+	width: 100%;
+}
+
+.titulo {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2rem;
+	padding: 1rem;
+	margin-top: 1rem;
+	color: #9EbE4C;
+}
+
+.servicos-lista {
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+
+.servicos-item:hover {
+	color: #9EbE4C;
+	cursor: pointer;
+}
+
+.servicos-item {
+	padding: 0.5rem;
+}
+
+.servicos-item:before {
+	content: "✦ ";
+}
+
+.divisor {
+	margin: 1rem 0 1rem;
+	padding: 0.5rem;
+	background: #f2f2f2;
+}
+
+.quem-somos {
+	padding: 1rem;
+	text-align: center;
+}
+
+.quem-somos-titulo {
+	font-size: 2.5rem;
+	color: #9EbE4C;
+	margin-bottom: 1rem;
+}
+
+.quem-somos-descricao {
+	color: #595959;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+.equipe {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2rem;
+}
+
+.pessoas {
+	display: flex;
+	justify-content: center;
+}
+
+.pessoa {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+}
+
+.pessoa-imagem {
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 100%;
+}
+
+.pessoa-nome {
+	margin: 0.5rem 0;
+	color: #9EBE4C;
+	font-size: 2rem;
+}
+
+.pessoa-funcao {
+	color: #595959;
+	font-size: 1.2rem;
+	width: 250px;
+}
+
+.rodape {
+	background: #f4f4f4;
+	text-align: center;	
+}
+
+.rodape-imagem {
+	padding: 1rem;
+}
+
+.copyright {
+	color: #9EBE4C;
+	text-align: center;	
+	padding-bottom: 2rem;
+	font-weight: bold;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #525252;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #04AA6D;
+  transition: 0.5s;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
